@@ -1,8 +1,8 @@
 const loading = document.getElementById("loading");
-const loadingDuration = 5400; // 2 sekund
+const loadingDuration = 100; 
 
 setTimeout(() => {
-  loading.classList.add("loading-none"); // loading-none klassini qo'shish
+  loading.classList.add("loading-none"); 
 }, loadingDuration);
 
 

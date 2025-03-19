@@ -93,7 +93,7 @@ body {
 }
 
 .footer-section {
-  background-color: #1b1c2b;
+  background-color: #1C1E53;
   color: white;
   padding: 80px 0;
 }
@@ -780,7 +780,7 @@ ul {
     font-size: 20px;
   }
 }
-
+/* 
 
 .fab-wrapper {
   z-index: 100;
@@ -963,7 +963,7 @@ ul {
 #backToTop:hover {
   background-color: #0056b3;
 }
-
+ */
 
 
 
