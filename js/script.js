@@ -82,3 +82,86 @@ button.addEventListener("animationend", function (event) {
   isAnimating = false;
   this.classList.remove("clicked");
 });
+
+
+
+
+  // document.addEventListener("DOMContentLoaded", function () {
+  //   const cards = document.querySelectorAll(".pricing-card");
+
+  //   cards.forEach((card) => {
+  //     card.addEventListener("mouseenter", function () {
+  //       this.style.backgroundColor = "#1C1E53";
+  //       this.style.color = "white";
+
+   
+  //       const button = this.querySelector(".btn");
+  //       if (button) {
+  //         if (button.classList.contains("btn-dark")) {
+  //           button.classList.remove("btn-dark");
+  //           button.classList.add("btn-warning");
+  //         } else if (button.classList.contains("btn-outline-dark")) {
+  //           button.classList.remove("btn-outline-dark");
+  //           button.classList.add("btn-warning");
+  //         }
+  //       }
+
+     
+  //       const textElements = this.querySelectorAll(
+  //         ".card-subtitle, .price-label"
+  //       );
+  //       textElements.forEach((el) => {
+  //         el.style.color = "rgba(255, 255, 255, 0.7)";
+  //       });
+
+       
+  //       const icons = this.querySelectorAll(".feature-icon");
+  //       icons.forEach((icon) => {
+  //         icon.style.color = "#a8b0d3";
+  //       });
+
+  //       const footer = this.querySelector(".card-footer");
+  //       if (footer) {
+  //         footer.style.backgroundColor = "#1C1E53";
+  //       }
+  //     });
+
+  //     card.addEventListener("mouseleave", function () {
+  //       this.style.backgroundColor = "#F4F6FC";
+  //       this.style.color = "";
+
+    
+  //       const button = this.querySelector(".btn");
+  //       if (button) {
+  //         if (
+  //           button.classList.contains("btn-warning") &&
+  //           this.querySelector(".btn-action:not(.btn-outline-dark)") &&
+  //           !button.classList.contains("btn-outline-dark")
+  //         ) {
+  //           button.classList.remove("btn-warning");
+  //           button.classList.add("btn-dark");
+  //         } else if (
+  //           button.classList.contains("btn-warning") &&
+  //           !button.classList.contains("btn-dark")
+  //         ) {
+  //           button.classList.remove("btn-warning");
+  //           button.classList.add("btn-outline-dark");
+  //         }
+  //       }
+
+     
+  //       const textElements = this.querySelectorAll(
+  //         ".card-subtitle, .price-label"
+  //       );
+  //       textElements.forEach((el) => {
+  //         el.style.color = "";
+  //       });
+
+  //       const footer = this.querySelector(".card-footer");
+  //       if (footer) {
+  //         footer.style.backgroundColor = "#F4F6FC";
+  //       }
+  //     });
+  //   });
+  // });
+

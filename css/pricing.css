@@ -1,0 +1,516 @@
+.pricing-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 0 15px;
+}
+
+.pricing-header p {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.pricing-card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  height: 100%;
+  border: none;
+  background-color: #f4f6fc;
+  /* color: #282938; */
+}
+
+.card-footer {
+  background: #f4f6fc !important;
+}
+.pricing-card:hover {
+  background-color: #1c1e53 !important;
+  color: white !important;
+}
+.pricing-card:hover .card-footer {
+  background-color: #1c1e53 !important ;
+}
+
+.pricing-card:hover .card-text {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.pricing-card:hover .price-label {
+  color: #fcd980 !important;
+}
+
+.pricing-card:hover .feature-icon {
+  color: #a8b0d3 !important;
+}
+
+.pricing-card:hover .btn-dark {
+  background-color: #1c1e53 !important;
+  color: #212529 !important;
+  border-color: #fcd980 !important;
+}
+
+.pricing-card:hover .btn-outline-dark {
+  background-color: #1c1e53 !important;
+  color: #212529 !important;
+  border-color: #ffc107 !important;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.price-label {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  border: none;
+  background-color: transparent;
+}
+
+.pricing-card:hover .feature-item {
+  background-color: #1c1e53;
+  color: white;
+}
+
+.btn-action {
+  border-radius: 30px;
+  padding: 0.5rem 2rem;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.btn-dark {
+  background-color: #1c1e53;
+  border-color: #1c1e53;
+}
+
+.btn-warning {
+  background-color: #fcd980;
+  color: #282938;
+  border-color: #ffc107;
+}
+
+.faq-section {
+  margin-top: 5rem;
+}
+
+.faq-header {
+  margin-bottom: 2rem;
+}
+
+.faq-header h3 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.accordion-button {
+  padding: 1.25rem 0;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-item {
+  border: none;
+  border-bottom: 1px solid #dee2e6;
+  background-color: transparent;
+}
+
+.accordion-collapse {
+  background-color: transparent;
+}
+
+.accordion-body {
+  padding: 1rem 2rem 1rem 3rem;
+  color: #6c757d;
+  font-size: 14px;
+  background-color: transparent;
+}
+
+.contact-link {
+  color: #6c757d;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.card-subtitle {
+  font-size: 14px;
+  margin-bottom: 1rem;
+  color: #6c757d;
+}
+
+.accordion-button::after {
+  display: none;
+}
+
+.accordion-button .plus-icon,
+.accordion-button .minus-icon {
+  margin-left: auto;
+  font-size: 24px;
+  line-height: 1;
+  transition: all 0.3s ease;
+}
+
+.accordion-button .minus-icon {
+  display: none;
+}
+
+.accordion-button:not(.collapsed) .plus-icon {
+  display: none;
+}
+
+.accordion-button:not(.collapsed) .minus-icon {
+  display: block;
+}
+
+
+
+.buttonbek {
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.buttonbek:hover {
+  box-shadow: 0.5px 0.5px 150px #252525;
+}
+
+.type1::after {
+  content: "Navroz";
+  height: 50px;
+  width: 150px;
+  background-color: #008080;
+  color: #fff;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translateY(50px);
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.type1::before {
+  content: "Happy";
+  height: 50px;
+  width: 150px;
+  background-color: #fff;
+  color: #008080;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translateY(0px) scale(1.2);
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.type1:hover::after {
+  transform: translateY(0) scale(1.2);
+}
+
+.type1:hover::before {
+  transform: translateY(-50px) scale(0) rotate(120deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* From Uiverse.io by UpdatedAi */ 
+.btn-53,
+.btn-53 *,
+.btn-53 :after,
+.btn-53 :before,
+.btn-53:after,
+.btn-53:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-53 {
+  --webkit-tap-highlight-color: transparent;
+  --webkit-appearance: button;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  padding: 1.2rem 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: inline-block; /* Changed from block to inline-block for better alignment */
+  border-radius: 999px;
+  position: relative;
+  overflow: hidden;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+  border: 1px solid;
+}
+
+.btn-53:disabled {
+  cursor: default;
+}
+
+.btn-53:-moz-focusring {
+  outline: auto;
+}
+
+.btn-53 svg {
+  display: block;
+  /* vertical-align: middle; */
+}
+
+.btn-53 [hidden] {
+  display: none;
+}
+
+.btn-53 .original {
+  background: #fff;
+  color: #000;
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  transition: transform 0.2s cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+.btn-53:hover .original {
+  transform: translateY(100%);
+}
+
+.btn-53 .letters {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.btn-53 span {
+  opacity: 0;
+  transition: opacity 0.2s, transform 0.2s cubic-bezier(0.87, 0, 0.13, 1);
+  transition-delay: 0.1s;
+}
+
+.btn-53:hover span {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.btn-53:hover span:nth-child(1) {
+  transition-delay: 0.1s;
+}
+.btn-53:hover span:nth-child(2) {
+  transition-delay: 0.2s;
+}
+.btn-53:hover span:nth-child(3) {
+  transition-delay: 0.3s;
+}
+.btn-53:hover span:nth-child(4) {
+  transition-delay: 0.4s;
+}
+.btn-53:hover span:nth-child(5) {
+  transition-delay: 0.5s;
+}
+.btn-53:hover span:nth-child(6) {
+  transition-delay: 0.6s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.buttons {
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: fit-content;
+  width: fit-content;
+  transition: 0.3s;
+  border-radius: 50%;
+}
+
+.buttons:hover {
+  padding: 60px;
+}
+
+.buttons:hover .button {
+  box-shadow: 5px 5px 12px #cacaca, -5px -5px 12px #ffffff;
+}
+
+.main-button {
+  position: relative;
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  border: none;
+  background: rgb(9, 45, 77);
+  box-shadow: 5px 5px 12px #cacaca, -5px -5px 12px #ffffff;
+  border-radius: 50%;
+  transition: 0.2s;
+  z-index: 100;
+}
+
+.button {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  border: none;
+  background: #e8e8e8;
+  box-shadow: 5px 5px 12px rgba(202, 202, 202, 0), -5px -5px 12px rgba(255, 255, 255, 0);
+  transition: 0.3s;
+  border-radius: 50%;
+}
+
+.discord-button:hover {
+  background: #5865F2;
+}
+
+.buttons:hover .discord-button {
+  translate: 70px 0px;
+  box-shadow: 5px 5px 12px #cacaca, -5px -5px 12px #ffffff;
+}
+
+.twitter-button:hover {
+  background: #1CA1F1;
+}
+
+.buttons:hover .twitter-button {
+  translate: 47px -47px;
+  box-shadow: 5px 5px 12px #cacaca, -5px -5px 12px #ffffff;
+}
+
+.reddit-button:hover {
+  background: #FF4500;
+}
+
+.buttons:hover .reddit-button {
+  translate: 0px -70px;
+  box-shadow: 5px 5px 12px #cacaca, -5px -5px 12px #ffffff;
+}
+
+.messenger-button:hover {
+  background: #0093FF;
+}
+
+.buttons:hover .messenger-button {
+  translate: -47px -47px;
+  box-shadow: 5px 5px 12px #cacaca, -5px -5px 12px #ffffff;
+}
+
+.pinterest-button:hover {
+  background: #F0002A;
+}
+
+.buttons:hover .pinterest-button {
+  translate: -70px 0px;
+  box-shadow: 5px 5px 12px #cacaca, -5px -5px 12px #ffffff;
+}
+
+.instagram-button:hover {
+  background: #F914AF;
+}
+
+.buttons:hover .instagram-button {
+  translate: -47px 47px;
+  box-shadow: 5px 5px 12px #cacaca, -5px -5px 12px #ffffff;
+}
+
+.snapchat-button:hover {
+  background: #FFFC00;
+}
+
+.buttons:hover .snapchat-button {
+  translate: 0px 70px;
+  box-shadow: 5px 5px 12px #cacaca, -5px -5px 12px #ffffff;
+}
+
+.whatsapp-button:hover {
+  background: #25D366;
+}
+
+.buttons:hover .whatsapp-button {
+  translate: 47px 47px;
+  box-shadow: 5px 5px 12px #cacaca, -5px -5px 12px #ffffff;
+}
+
+.buttons{
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+}
+
+
+.best .button{
+  width: 50px;
+  height: 50px;
+}
+
+
+/* From Uiverse.io by Nameniok */ 
+.buttonjon {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  color: #ede5ff;
+  transition: 0.2s;
+}
+
+.buttonjon:hover {
+  box-shadow: 0px 0px 17px -4px #976cff;
+  border-color: #976cff;
+  color: #f7f5ff;
+  background-color: #2e2546;
+}
+
+.buttonjon:active {
+  box-shadow: 0px 0px 17px -7px #976cff;
+  border-color: #976cff;
+  transform: scale(0.95);
+}
